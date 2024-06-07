@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
-        <title>2048 Cupcakes</title>
+        <title>2048 FIFA World Cup</title>
 		<style>
 		/*Google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
@@ -201,6 +201,7 @@ img {
   font-weight: 400;
   margin-bottom: 1.5rem;
   text-shadow: 4px 2px 12px black;
+  width: 402px;
 }
 
 .home__description {
@@ -399,11 +400,11 @@ img {
   .home__data {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
-    grid-area: data;
-    padding: 0;
+   /* grid-area: data;
+    padding: 0;*/
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
-        align-self: center;
+        /*align-self: center; */
     text-align: initial;
   }
   .home__description {
@@ -491,6 +492,19 @@ img {
     margin-left: 20px;
     text-decoration: none;
 }
+
+a.nav__btnp {
+    background-color: #a98cc4;
+    color: white;
+    padding: 0.375rem 1rem;
+    border-radius: 2rem;
+    font-weight: bolder;
+    margin-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+	    width: 100px;
+}
+
 </style>
     </head>
     <body>
@@ -519,20 +533,24 @@ img {
         <main class="l-main bd-grid">
             <section class="home">
                 <div class="home__data">
-                    <h1 class="home__title">2048 FIFA World Cup</h1>
-                    <p class="home__description">2048 FIFA World Cup | How to Play 2048 FIFA World Cup.<br>
-                      The FIFA World Cup, often simply called the World Cup. <br><!-- GSAP -->Play This Game.</p>
-               
-			   <br> <br><a href="https://2048-cupcake.blogspot.com/2021/04/2048-fifa-world-cup.html" class="nav__btn">Play Now</a> </div>
-    
+                    <h1 class="home__title">2048 FIFA World Cup</h1><br>
+						<a href="https://2048-cupcake.blogspot.com/2021/04/2048-fifa-world-cup.html" class="nav__btnp" target="_blank">Play Now</a><br><br>
+                    <p class="home__descriptionp">2048 FIFA World Cup | How to Play 2048 FIFA World Cup.<br>
+The FIFA World Cup, often simply called the World Cup. <br><!-- GSAP -->.</p>
+
+			   </div>
+
+
+
+
                 <div class="home__img">
                     <!-- IMG -->
                     <img src="https://2048-cupcake.github.io/2048-FIFA-World-Cup/img/2.jpg" alt="New 2048 Cupcakes " class="airpod1">
                     <img src="https://2048-cupcake.github.io/2048-FIFA-World-Cup/img/16.jpg" alt="New 2048 Cupcakes " class="airpod2">
-                </div>
+				</div>
     
                 <div class="home__scroll">
-                    <span class="home__scroll-text">Scroll down for more</span>
+				   <span class="home__scroll-text">Scroll down for more</span>
                     <a href="#l-section"><img src="https://2048-cupcakes.github.io/game/icons/bx-mouse.svg" alt="New 2048 Cupcakes " class="home__scroll-icon"></a>
                 </div>
             </section>
