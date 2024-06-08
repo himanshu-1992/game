@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=0.9">
       <meta name="description" content="Play 2048 Unicorns game , 2048 unicorns game online, 2048 Cupcakes ,2048 puppies and unicorns ,2048 unicorns game free">
 	  <meta name="robots" content="index, follow">
       <title>2048 Unicorns</title>
@@ -284,6 +284,7 @@ img {
   width: 124px;
   height: 125px;
   margin-right: 1rem;
+  border-radius: 90px;
 }
 
 .home__scroll {
@@ -357,12 +358,13 @@ img {
       align-content: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
+       justify-content: center; 
 }
 
 .details__box {
   margin-bottom: 2.5rem;
   text-align: center;
+      padding: 12px;
 }
 
 .details__initial {
@@ -394,7 +396,7 @@ img {
 }
 .details__content {
     padding: -23px;
-    margin: 50px;
+   /* margin: 50px; */
     background-color: aliceblue;
     border-radius: 11px;
     box-shadow: 1px 2px 10px 1px #2624241f;
@@ -403,8 +405,9 @@ img {
 
 
 .details__img img {
-  width: 218px;
-  margin-top: -6em;
+  width: 187px;
+        margin-top: -1em;
+        border-radius: 90px;
 }
 
 /*ANIMATION*/
@@ -430,12 +433,13 @@ img {
 /*----- MEDIA QUERIES -----*/
 
 @media screen and (max-width: 550px) {
-.details__content {width: 29em;
+.details__content {width: 23em;
     margin-top: 13em;}
 
   .details__img img {
-    width: 218px;
-    margin-top: -6em;}
+     width: 187px;
+        margin-top: -1em;
+        border-radius: 90px;}
 }
 
 @media screen and (min-width: 768px) {
@@ -502,6 +506,7 @@ img {
   .home__img img {
     width: 124px;
     height: 125px;
+	border-radius: 90px;
   }
   .home__scroll {
     -ms-grid-row: 2;
@@ -525,8 +530,9 @@ img {
         align-self: center;
   }
   .details__img img {
-    width: 300px;
-    margin-top: -6em;
+    width: 187px;
+        margin-top: -1em;
+        border-radius: 90px;
   }
 }
 
@@ -572,7 +578,7 @@ img {
     padding: 0.375rem 1rem;
     border-radius: 2rem;
     font-weight: bolder;
-    margin-left: 20px;
+
     text-decoration: none;
 }
 
@@ -582,7 +588,7 @@ a.nav__btnp {
     padding: 0.375rem 1rem;
     border-radius: 2rem;
     font-weight: bolder;
-    margin-left: 20px;
+  
     text-decoration: none;
     cursor: pointer;
 	    width: 100px;
@@ -615,13 +621,13 @@ a.nav__btnp {
         <!-- HOME -->
         <main class="l-main bd-grid">
             <section class="home">
-                <div class="home__data">
+                <center><div class="home__data">
                     <h1 class="home__title">2048 Unicorns   </h1><br>
 						˙✧˖°🎮 ⋆｡˚<a href="https://2048-cupcake.blogspot.com/2022/08/2048-unicorns.html" class="nav__btnp" target="_blank">Play Now</a><br><br>
                     <h2 class="home__descriptionp">2048 Unicorns | How to Play 2048 Unicorns .<br>
 HOW TO PLAY: Use your arrow keys to move the tiles. When two tiles with the same rank touch, they get promoted! <br><!-- GSAP -->.</h2>
-
-			   </div>
+                     
+			   </div></center>
 
 
 
